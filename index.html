@@ -8,11 +8,8 @@
 
 <body>
   <div id="app">
-    <ul>
-      <li v-for="todo in todos">
-        {{ todo.text }}
-      </li>
-    </ul>
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
   </div>
 
   <script src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script>
