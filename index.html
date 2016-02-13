@@ -7,10 +7,12 @@
 </head>
 
 <body>
-
   <div id="app">
-      <p>{{ message }}</p>
-      <input v-model="message">
+    <ul>
+      <li v-for="todo in todos">
+        {{ todo.text }}
+      </li>
+    </ul>
   </div>
 
   <script src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script>

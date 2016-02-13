@@ -1,6 +1,10 @@
 new Vue({
-    el: '#app',
-    data: {
-        message: 'Hello Vue.js!'
-    }
+  el: '#app',
+  data: {
+    todos: [
+      { text: 'Learn JavaScript' },
+      { text: 'Learn Vue.js' },
+      { text: 'Build Something Awesome' }
+    ]
+  }
 })
